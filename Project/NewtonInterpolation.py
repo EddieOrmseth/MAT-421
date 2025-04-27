@@ -3,12 +3,12 @@ import numpy as np
 
 
 try:
-    from Interpolation import Interpolation, interp_example
+    from Interpolation import Interpolator, interp_example
 except:
     cat = 12
 
 
-class NewtonInterpolation(Interpolation):
+class NewtonInterpolator(Interpolator):
 
     def interpolate_missing_values(self, x: np.array, y: np.array) -> np.array:
         mask = ~np.isnan(y)
@@ -39,8 +39,12 @@ class NewtonInterpolation(Interpolation):
             basis_product *= (x - x_data[i])  # build up (x - x0)(x - x1)... step-by-step
 
         return result
+    
+    
+    def name(self):
+        return "Newton"
 
 
 if __name__ == '__main__':
     
-    interp_example(NewtonInterpolation())
+    interp_example(NewtonInterpolator())

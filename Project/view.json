@@ -1,0 +1,298 @@
+{
+    "Results": {
+        "One In The Middle: [1, 1, 1, 0, 1, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 1.6457027656418273,
+                    "num cases": 470.0,
+                    "average error": 0.003501495246046441
+                },
+                "Cubic Spline": {
+                    "total error": 1.6560903913781806,
+                    "num cases": 470.0,
+                    "average error": 0.0035235965774003844
+                },
+                "Newton": {
+                    "total error": 1.6957032474551208,
+                    "num cases": 470.0,
+                    "average error": 0.0036078792499045125
+                },
+                "Quintic Spline": {
+                    "total error": 1.6957032474551204,
+                    "num cases": 470.0,
+                    "average error": 0.003607879249904511
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 0.0792142896105592,
+                    "num cases": 115.0,
+                    "average error": 0.0006888199096570365
+                },
+                "Cubic Spline": {
+                    "total error": 0.09963609371224807,
+                    "num cases": 115.0,
+                    "average error": 0.0008664008148891137
+                },
+                "Newton": {
+                    "total error": 0.10345878566076887,
+                    "num cases": 115.0,
+                    "average error": 0.0008996416144414684
+                },
+                "Quintic Spline": {
+                    "total error": 0.10345878566076595,
+                    "num cases": 115.0,
+                    "average error": 0.0008996416144414431
+                }
+            }
+        },
+        "Two In The Middle: [1, 1, 1, 0, 0, 1, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 4.941457269417517,
+                    "num cases": 469.0,
+                    "average error": 0.010536156224770827
+                },
+                "Cubic Spline": {
+                    "total error": 4.347982942669898,
+                    "num cases": 469.0,
+                    "average error": 0.009270752543006178
+                },
+                "Newton": {
+                    "total error": 4.7099771981172145,
+                    "num cases": 469.0,
+                    "average error": 0.010042595305153975
+                },
+                "Quintic Spline": {
+                    "total error": 4.709977198117198,
+                    "num cases": 469.0,
+                    "average error": 0.01004259530515394
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 0.1941906492357895,
+                    "num cases": 115.0,
+                    "average error": 0.0016886143411807782
+                },
+                "Cubic Spline": {
+                    "total error": 0.2504024755452345,
+                    "num cases": 115.0,
+                    "average error": 0.002177412830828126
+                },
+                "Newton": {
+                    "total error": 0.27910341719689497,
+                    "num cases": 115.0,
+                    "average error": 0.0024269862364947386
+                },
+                "Quintic Spline": {
+                    "total error": 0.2791034171968919,
+                    "num cases": 115.0,
+                    "average error": 0.002426986236494712
+                }
+            }
+        },
+        "Medium Gap: [1, 1, 1, 0, 0, 0, 1, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 10.988191121435614,
+                    "num cases": 463.0,
+                    "average error": 0.023732594214763744
+                },
+                "Cubic Spline": {
+                    "total error": 8.346859903642983,
+                    "num cases": 463.0,
+                    "average error": 0.018027775169855254
+                },
+                "Newton": {
+                    "total error": 9.140745738455074,
+                    "num cases": 463.0,
+                    "average error": 0.019742431400550917
+                },
+                "Quintic Spline": {
+                    "total error": 9.140745738455086,
+                    "num cases": 463.0,
+                    "average error": 0.01974243140055094
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 0.3395065302870866,
+                    "num cases": 115.0,
+                    "average error": 0.002952230698148579
+                },
+                "Cubic Spline": {
+                    "total error": 0.42035383314324304,
+                    "num cases": 115.0,
+                    "average error": 0.003655250722984722
+                },
+                "Newton": {
+                    "total error": 0.48566935381231735,
+                    "num cases": 115.0,
+                    "average error": 0.0042232117722810205
+                },
+                "Quintic Spline": {
+                    "total error": 0.4856693538123188,
+                    "num cases": 115.0,
+                    "average error": 0.004223211772281033
+                }
+            }
+        },
+        "Big Gap: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 18.96457776416984,
+                    "num cases": 454.0,
+                    "average error": 0.041772197718435766
+                },
+                "Cubic Spline": {
+                    "total error": 13.535465466173603,
+                    "num cases": 454.0,
+                    "average error": 0.02981380058628547
+                },
+                "Newton": {
+                    "total error": 18.169976992727726,
+                    "num cases": 454.0,
+                    "average error": 0.04002197575490689
+                },
+                "Quintic Spline": {
+                    "total error": 15.909725757146715,
+                    "num cases": 454.0,
+                    "average error": 0.03504344880428792
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 0.5823041435576314,
+                    "num cases": 115.0,
+                    "average error": 0.00506351429180549
+                },
+                "Cubic Spline": {
+                    "total error": 0.5807156043033634,
+                    "num cases": 115.0,
+                    "average error": 0.005049700906985769
+                },
+                "Newton": {
+                    "total error": 0.8824578765678088,
+                    "num cases": 115.0,
+                    "average error": 0.007673546752763555
+                },
+                "Quintic Spline": {
+                    "total error": 0.751613217818652,
+                    "num cases": 115.0,
+                    "average error": 0.006535767111466539
+                }
+            }
+        },
+        "Missing Gaps: [1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 5.053479736531554,
+                    "num cases": 459.0,
+                    "average error": 0.01100975977457855
+                },
+                "Cubic Spline": {
+                    "total error": 4.9810594093979,
+                    "num cases": 459.0,
+                    "average error": 0.010851981284091285
+                },
+                "Newton": {
+                    "total error": 9.187091341554261,
+                    "num cases": 459.0,
+                    "average error": 0.02001544954586985
+                },
+                "Quintic Spline": {
+                    "total error": 6.464767494942679,
+                    "num cases": 459.0,
+                    "average error": 0.014084460773295598
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 0.22163201001802768,
+                    "num cases": 115.0,
+                    "average error": 0.0019272348697219799
+                },
+                "Cubic Spline": {
+                    "total error": 0.3088834732931194,
+                    "num cases": 115.0,
+                    "average error": 0.002685943246027125
+                },
+                "Newton": {
+                    "total error": 0.4475943593355162,
+                    "num cases": 115.0,
+                    "average error": 0.0038921248637870977
+                },
+                "Quintic Spline": {
+                    "total error": 0.3955300319277321,
+                    "num cases": 115.0,
+                    "average error": 0.0034393915819802795
+                }
+            }
+        },
+        "Medium Gaps: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1]": {
+            "Tennis": {
+                "Piecewise Linear": {
+                    "total error": 28.24047030158328,
+                    "num cases": 435.0,
+                    "average error": 0.06492062138295007
+                },
+                "Cubic Spline": {
+                    "total error": 21.64851273104099,
+                    "num cases": 435.0,
+                    "average error": 0.049766695933427564
+                },
+                "Newton": {
+                    "total error": 81.11772870202549,
+                    "num cases": 435.0,
+                    "average error": 0.1864775372460356
+                },
+                "Quintic Spline": {
+                    "total error": 30.090984939884265,
+                    "num cases": 435.0,
+                    "average error": 0.06917467802272245
+                }
+            },
+            "Soccer": {
+                "Piecewise Linear": {
+                    "total error": 1.0060866444829126,
+                    "num cases": 115.0,
+                    "average error": 0.008748579517242719
+                },
+                "Cubic Spline": {
+                    "total error": 1.2038461914447791,
+                    "num cases": 115.0,
+                    "average error": 0.010468227751693732
+                },
+                "Newton": {
+                    "total error": 1.736493699827539,
+                    "num cases": 115.0,
+                    "average error": 0.015099945215891645
+                },
+                "Quintic Spline": {
+                    "total error": 1.5695811621351823,
+                    "num cases": 115.0,
+                    "average error": 0.013648531844653759
+                }
+            }
+        }
+    },
+    "Error by Test Config": {
+        "One In The Middle: [1, 1, 1, 0, 1, 1, 1]": 0.017595354276684908,
+        "Two In The Middle: [1, 1, 1, 0, 0, 1, 1, 1]": 0.04861209902308327,
+        "Medium Gap: [1, 1, 1, 0, 0, 0, 1, 1, 1]": 0.09629913715141622,
+        "Big Gap: [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1]": 0.17097395192693737,
+        "Missing Gaps: [1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1]": 0.06790634593935178,
+        "Medium Gaps: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1]": 0.4183048169146176
+    },
+    "Error by Interpolation": {
+        "Piecewise Linear": 0.17654181818930198,
+        "Cubic Spline": 0.14615753836747472,
+        "Newton": 0.31412332495808126,
+        "Quintic Spline": 0.18286902371723313
+    },
+    "Error by Dataset": {
+        "Tennis": 0.7083307887139487,
+        "Soccer": 0.11136091651814245
+    }
+}

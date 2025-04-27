@@ -4,12 +4,12 @@ from scipy.interpolate import UnivariateSpline
 
 
 try:
-    from Interpolation import Interpolation, interp_example
+    from Interpolation import Interpolator, interp_example
 except:
     cat = 12
 
 
-class SplineInterpolation(Interpolation):
+class SplineInterpolator(Interpolator):
 
     k: int = 3
     s: int = 0
@@ -27,9 +27,15 @@ class SplineInterpolation(Interpolation):
         missing_indices = np.where(np.isnan(y))[0]
         y_interp[missing_indices] = spline(x[missing_indices])
         return y_interp
+    
+    
+    def name(self):
+        if self.k == 3: return "Cubic Spline"
+        if self.k == 5: return "Quintic Spline"
+        else: return "Spline"
 
 
 if __name__ == '__main__':
 
-    interp_example(SplineInterpolation(k = 3, s =0))
-    interp_example(SplineInterpolation(k = 5, s = 0))
+    interp_example(SplineInterpolator(k = 3, s =0))
+    interp_example(SplineInterpolator(k = 5, s = 0))

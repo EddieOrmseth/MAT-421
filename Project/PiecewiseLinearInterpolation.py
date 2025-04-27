@@ -3,12 +3,12 @@ import numpy as np
 
 
 try:
-    from Interpolation import Interpolation, interp_example
+    from Interpolation import Interpolator, interp_example
 except:
     cat = 12
 
 
-class PiecewiseInterpolation(Interpolation):
+class PiecewiseLinearInterpolator(Interpolator):
 
     def interpolate_missing_values(self, x: np.array, y: np.array) -> np.array:
         present_indices = np.where(~np.isnan(y))[0]
@@ -26,7 +26,7 @@ class PiecewiseInterpolation(Interpolation):
 
         return y_interp
 
-        
+
     def find_surrounding_pts(self, data, x):
         if x <= data[0]: return 0, 1
         elif data[-1] <= x: return len(data) - 2, len(data) - 1
@@ -34,8 +34,13 @@ class PiecewiseInterpolation(Interpolation):
         for i in range(len(data) - 1):
             if data[i] <= x <= data[i + 1]:
                 return i, i + 1
+        return 0, 1
+            
+            
+    def name(self):
+        return "Piecewise Linear"
     
 
 if __name__ == '__main__':
 
-    interp_example(PiecewiseInterpolation())
+    interp_example(PiecewiseLinearInterpolator())
